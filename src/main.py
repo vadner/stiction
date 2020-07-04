@@ -22,7 +22,7 @@ def main() -> None:
     max_monsters_per_room = 2
 
     tileset = tcod.tileset.load_tilesheet(
-        "assets/dejavu10x10_gs_tc.png", 32, 8, tcod.tileset.CHARMAP_TCOD
+        "../assets/dejavu10x10_gs_tc.png", 32, 8, tcod.tileset.CHARMAP_TCOD
     )
 
     event_handler = EventHandler()
